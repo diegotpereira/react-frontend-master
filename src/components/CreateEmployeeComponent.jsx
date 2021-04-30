@@ -66,7 +66,7 @@ class CreateEmployeeComponent extends Component{
     }
 
     getTitle(){
-        if (this.state.id == '_add') {
+        if (this.state.id === '_add') {
             return <h3 className="text-center">Novo Funcionário</h3>
         } else {
             return <h3 className="text-center">Atualizar Funcionário</h3>
