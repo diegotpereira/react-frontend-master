@@ -88,12 +88,12 @@ class CreateEmployeeComponent extends Component{
                                 <form>
                                     <div className = "form-group">
                                         <label>Nome: </label>
-                                        <input placeholder="Digite seu nome" name="firstName" className="form-control" value={this.state.firstName} onChenge={this.changeFirstNameHandler} />
+                                        <input placeholder="Digite seu nome" name="firstName" className="form-control" value={this.state.firstName} onChange={this.changeFirstNameHandler} />
                                     </div>
 
                                     <div className = "form-group">
                                             <label> SobreNome: </label>
-                                            <input placeholder="Last Name" name="lastName" className="form-control" value={this.state.lastName} onChange={this.changeLastNameHandler}/>
+                                            <input placeholder="Digite seu Sobrenome" name="lastName" className="form-control" value={this.state.lastName} onChange={this.changeLastNameHandler}/>
                                     </div>
 
                                     <div className = "form-group">
